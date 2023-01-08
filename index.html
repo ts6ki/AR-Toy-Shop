@@ -20,11 +20,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <!-- Local StyleSheet -->
     <link href="./style.css" rel="stylesheet" />
 
     <!--JS Files-->
     <script src="./js/addButtons.js"></script>
+    <script src="./js/markerhandler.js"></script>
   </head>
 
   <body style="margin: 0px; overflow: hidden">
@@ -54,6 +58,7 @@
         type="pattern"
         url="assets/T01/pattern-crane.patt"
         cursor="rayOrigin: mouse"
+        markerhandler
       >
         <a-entity
           id="crane-3D-model"
@@ -92,7 +97,7 @@
             position="0.1 0 0.1"
             rotation="0 0 0"
             text="color: #6b011f; align: left; width: 2;height:5;lineHeight:50;letterSpacing:2; font: dejavu;
-               value:PULL BACK AND GO: Friction powered crane truck toy, 360-degree rotating left and right, machine can pull up & down, swing left & right. High Quality Material: FunBlast crane toy is made of 100% high-quality abs plastics and metal shovel which is durable, light and Non-Toxic with strong crash resistance"
+             value:PULL BACK AND GO: Friction powered crane truck toy, 360-degree rotating left and right, machine can pull up & down, swing left & right. High Quality Material: FunBlast crane toy is made of 100% high-quality abs plastics and metal shovel which is durable, light and Non-Toxic with strong crash resistance"
           >
           </a-entity>
 
@@ -100,7 +105,7 @@
             position="-0.75 -0.8 0.1"
             rotation="0 0 0"
             text="color: #290149; align: center; width: 2;height:5; font: aileronsemibold;
-               value:AGE : 8 - 10yrs"
+             value:AGE : 8 - 10yrs"
           >
           </a-entity>
         </a-plane>

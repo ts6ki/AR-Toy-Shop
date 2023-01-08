@@ -1,5 +1,5 @@
 AFRAME.registerComponent("createbuttons", {
-  init: function() {
+  init: function () {
     // 1. Create the Order button
     var button1 = document.createElement("button");
     button1.innerHTML = "ORDER NOW";
